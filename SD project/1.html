@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AngerWithHunger - Discover Food Near You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1 class="logo">AngerWithHunger</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Restaurants</a>
+            <a href="#">About</a>
+            <a href="#" class="login-btn">Login</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Find the Best Regional, Local & International Foods</h2>
+        <p>Search for meals, restaurants or cuisines across India</p>
+
+        <input type="text" id="searchBox" placeholder="Search for biryani, dosa, momo, pizza..." onkeyup="searchFood()">
+    </section>
+
+    <!-- CATEGORY SECTION -->
+    <section class="categories">
+        <h3>Popular Categories</h3>
+        <div class="cat-container">
+            <div class="cat">Indian</div>
+            <div class="cat">Chinese</div>
+            <div class="cat">South Indian</div>
+            <div class="cat">Italian</div>
+            <div class="cat">Street Food</div>
+            <div class="cat">Bakery</div>
+        </div>
+    </section>
+
+    <!-- RESTAURANT LIST -->
+    <section class="restaurants">
+        <h3>Nearby Restaurants</h3>
+        <div id="restaurantList" class="restaurant-container">
+            <!-- JS will load restaurants -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 AngerWithHunger | Made with ❤️ for Food Lovers</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
